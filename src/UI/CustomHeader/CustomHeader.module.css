@@ -1,0 +1,25 @@
+.menuWrapper {
+  width: 100%;
+}
+
+.menuHeading {
+  margin: 0;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.orangeLine {
+  width: 25%;
+  height: 4px;
+  background-color: var(--clr-gold);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .menuHeading {
+    font-size: 44px;
+  }
+  .orangeLine {
+    width: 10%;
+  }
+}

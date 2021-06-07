@@ -1,0 +1,44 @@
+.menuItemWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px 12px;
+  margin-top: 20px;
+}
+
+.menuItemDiv {
+  color: var(--clr-gold);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menuText {
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.menuText_NoBottomLine {
+  height: 3px;
+}
+.menuTextBottomLine {
+  background-color: var(--clr-gold);
+}
+
+@media (min-width: 768px) {
+  .menuItemWrapper {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .menuItemDiv {
+    padding: 2px 10px;
+    border-radius: 5px;
+  }
+
+  .menuItemDiv:hover {
+    background-color: var(--clr-gold);
+    color: white;
+  }
+}
