@@ -45,6 +45,8 @@
 
 @media (min-width: 768px) {
   .BlogWrapper {
+    width: 100%;
+    padding: 0 40px;
     display: grid;
     grid-template-columns: 50% 50%;
     box-sizing: border-box;
